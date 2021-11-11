@@ -1,12 +1,9 @@
-# 
 # python-beryl - Python Driver for BerylDB.
 # http://www.beryldb.com
 #
 # This is an example script for python-beryl. You may modify it
 # and freely use it at your convenience. Feel free to join our
-# discord support server If you are interested about
-# BerylDB. 
-#
+# discord support server If you are interested about BerylDB.
 
 import asyncio
 import sys

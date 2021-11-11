@@ -320,6 +320,7 @@ class Client:
         await c.write(f'{command.value} {" ".join(args)} {" ".join(values)}'.strip())
         result  = ""
         self.items = []
+        self.maps  = {}
         
         parse_type = return_type(str(command))
         

@@ -1,4 +1,4 @@
-name: Pythob Workflow
+name: Python Workflow
 
 on:
   push:
@@ -15,10 +15,5 @@ jobs:
         uses: actions/setup-python@master
         with:
           python-version: 3.8
-      - name: Generate coverage report
-        run: |
-          pip install pytest
-          pip install pytest-cov
-          pytest --cov=./ --cov-report=xml
       - name: Check version
         run: python3 tests/version.py

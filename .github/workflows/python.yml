@@ -20,5 +20,5 @@ jobs:
           pip install pytest
           pip install pytest-cov
           pytest --cov=./ --cov-report=xml
-    - name: Check version
-      run: python3 tests/version.py
+      - name: Check version
+        run: python3 tests/version.py
